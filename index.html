@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="favicon.ico">
+	<!-- Enable responsiveness on mobile devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- our landing page CSS -->
+	<link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+
+	<header class="container">
+		<h2 class="h2 text-center">Service</h2>
+		<h1 class="h1 text-center">Premiere <br /> Service & Quality</h1>
+	</header>
+
+	<main class="container">
+		
+		<div id="row">
+
+			<!-- l e f t  = =  s e c t i o n -->
+			<section class="col-lg-6 col-md-8 text-right">
+				<article>
+					<h3 class="h3">Bricklaying
+						<img src="img/icon1.png" alt="" class="icon-l">
+					</h3>
+					<img src="img/img1.jpg" alt="">
+					<p>
+						Erat volutpat. Ut wisi enum <br>ad minim veniam, quis <br>nostrud exerci tation <br>ullalamcorper san et iusto.
+					</p>
+					<img src="img/plus.png" alt="" class="icon-l">
+				</article>
+
+				<article>
+					<h3 class="h3">Plumbing
+						<img src="img/icon3.png" alt="" class="icon-l">
+					</h3>
+					<img src="img/img3.jpg" alt="">
+					<p>
+						Erat volutpat. Ut wisi enum <br>ad minim veniam, quis <br>nostrud exerci tation <br>ullalamcorper san et iusto.
+					</p>
+					<img src="img/plus.png" alt="" class="icon-l">
+				</article>
+
+				<article>
+					<h3 class="h3">Electrical
+						<img src="img/icon5.png" alt="" class="icon-l">
+					</h3>
+					<img src="img/img5.jpg" alt="">
+					<p>
+						Erat volutpat. Ut wisi enum <br>ad minim veniam, quis <br>nostrud exerci tation <br>ullalamcorper san et iusto.
+					</p>
+					<img src="img/plus.png" alt="" class="icon-l">
+				</article>
+			</section>
+
+			<!-- c e n t e r  = = s e c t i o n -->
+			<section class="col-lg-12 col-md-8 spanner">
+				<article>
+					<img src="img/cloud2.png" class="posabs cloud2" alt="">
+					<img src="img/spanner.png" class="posabs spanner" alt="">
+					<img src="img/cloud1.png" class="posabs cloud1" alt="">
+				</article>
+			</section>
+			
+			<!-- r i g h t  = = s e c t i o n -->
+			<section class="col-lg-6 col-md-8 text-left">
+				<article>
+					<h3 class="h3">
+						<img src="img/icon2.png" alt="" class="icon-r">
+						Fencing
+					</h3>
+					<img src="img/img2.jpg" alt="">
+					<p>
+						Erat volutpat. Ut wisi enum <br>ad minim veniam, quis <br>nostrud exerci tation <br>ullalamcorper san et iusto.
+					</p>
+					<img src="img/plus.png" alt="" class="icon-r">
+				</article>
+
+				<article>
+					<h3 class="h3">
+						<img src="img/icon4.png" alt="" class="icon-r">
+						Windows
+					</h3>
+					<img src="img/img4.jpg" alt="">
+					<p>
+						Erat volutpat. Ut wisi enum <br>ad minim veniam, quis <br>nostrud exerci tation <br>ullalamcorper san et iusto.
+					</p>
+					<img src="img/plus.png" alt="" class="icon-r">
+				</article>
+				<article>
+					<h3 class="h3">
+						<img src="img/icon6.png" alt="" class="icon-r">
+						Roofing
+					</h3>
+					<img src="img/img6.jpg" alt="">
+					<p>
+						Erat volutpat. Ut wisi enum <br>ad minim veniam, quis <br>nostrud exerci tation <br>ullalamcorper san et iusto.
+					</p>
+					<img src="img/plus.png" alt="" class="icon-r">
+				</article>
+
+
+			</section>
+		</div>		
+
+	</main>
+
+	<footer class="container">
+		<!-- some &cpy; text.. -->
+	</footer>
+
+
+	<section class="scripts">	
+		<!-- js files located lower in page to not block css and page rendering process -->
+		<!-- layout overlay -->
+		<script>
+		(function(){
+			window.javascriptgrid = {
+				columns: {
+					"default": {
+						columns: 24
+					}
+				},
+				columnWidth: 15,
+				gapWidth: 30
+			};
+			var script = document.createElement('script');
+			script.src = 'js/overlay.js';
+			document.getElementsByTagName('HEAD')[0].appendChild(script);
+		})();
+		</script>
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+	    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!--[if lt IE 9]>
+	      <script src="js/html5shiv.min.js"></script>
+	      <script src="js/respond.min.js"></script>
+	    <![endif]-->
+	    <script src="js/jquery.min.js"></script>
+	    <script>
+	    $(document).ready(function() {
+			$(window).scroll(function() {
+				var scrolled = $(window).scrollTop();
+				$('.cloud1').css('top', (scrolled * 0.02 + 47) + '%');
+				$('.cloud2').css('top', (scrolled * 0.03 + 45) + '%');
+			});
+		});
+		</script>
+	</section>
+	
+</body>
+</html>
