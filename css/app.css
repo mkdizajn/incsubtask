@@ -38,7 +38,7 @@
 /* whole body global style */
 
 body {
-	padding: 40px;
+	padding: 40px 0px;
 	color: #fcfcfc;
 	background-color: #333;
 	font-family: 'ralewayregular'; /* lead document font */
@@ -119,5 +119,7 @@ p{
 #jsg-control{
 	position: fixed;
 	top: 25px;
+	left: 25px;
 }
+
 
