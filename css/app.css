@@ -121,5 +121,11 @@ p{
 	top: 25px;
 	left: 25px;
 }
+#psd-file{
+	position: fixed;
+	top: 35px;
+	left: 25px;
+}
+
 
 
